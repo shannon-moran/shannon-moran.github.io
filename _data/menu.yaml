@@ -1,0 +1,28 @@
+- title: "About"
+  href: "/about/"
+
+- title: "CV"
+  href: "/cv/"
+
+- title: "Research"
+  href: "/research/"
+
+- title: "Publications"
+  href: "/publications/"
+
+- title: "Miscellany"
+  href: "/miscellany/"
+
+- title: "Blog"
+  href: "/blog/"
+
+# For reference, if I want to add sub-labels later
+# - title: "Miscellany"
+#   href: "/miscellany/"
+#   subcategories:
+#     - subtitle: "Clean USAID Greenbook Data"
+#       subhref: "/miscellany/clean-usaid-greenbook-data/"
+#     - subtitle: "Journal of Peace Research *.bst File"
+#       subhref: "/miscellany/journal-of-peace-research-bst-file/"
+#     - subtitle: "My Custom Beamer Style"
+#       subhref: "/miscellany/my-custom-clemson-themed-beamer-style/"
