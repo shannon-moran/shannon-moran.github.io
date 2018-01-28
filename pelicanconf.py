@@ -8,6 +8,10 @@ SITEURL = ''
 
 # THEME = '/Users/shannonmoran/Documents/pelican-themes/pelican-bootstrap3/'
 # THEME = "/Users/shannonmoran/Documents/pelican-themes/simple"
+THEME = 'themes/moran'
+ABOUT_PAGE = '/pages/about.html'
+CV_PAGE = '/pages/cv.html'
+PUBLICATIONS_PAGE = '/pages/publications.html'
 
 PATH = 'content'
 FAVICON = 'images/favicon.ico'
@@ -33,6 +37,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Social widget
+TWITTER_USERNAME = 'shannoninshort'
+GITHUB_USERNAME = 'shannon-moran'
 SOCIAL = (('github', 'http://github.com/shannon-moran'),
           ('google scholar', 'https://scholar.google.com/citations?user=4HxxyckAAAAJ&hl=en&oi=ao'),
           ('twitter', 'http://twitter.com/shannoninshort'),
