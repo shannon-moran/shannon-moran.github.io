@@ -3,11 +3,10 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Shannon Moran'
-SITENAME = "Shannon does science"
+SITENAME = "Shannon Moran"
 SITEURL = ''
 
-# THEME = '/Users/shannonmoran/Documents/pelican-themes/pelican-bootstrap3/'
-# THEME = "/Users/shannonmoran/Documents/pelican-themes/simple"
+# Add in theemes
 THEME = 'themes/moran'
 ABOUT_PAGE = '/pages/about.html'
 CV_PAGE = '/pages/cv.html'
@@ -17,6 +16,7 @@ PATH = 'content'
 FAVICON = 'images/favicon.ico'
 STATIC_PATHS = [
     'images',
+    'pdfs',
     'extra/robots.txt',
     'extra/favicon.ico'
 ]
