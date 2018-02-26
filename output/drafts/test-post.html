@@ -6,7 +6,7 @@
         <meta name="author" content="Shannon Moran">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-        <title>Home | Shannon Moran</title>
+        <title>First post to test out Pelican | Shannon Moran</title>
 
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -420,43 +420,141 @@ article .meta a.comments_btn:hover {
         </header>
 
         <div id="wrap">
-<div class="container index">
+<div class="container post">
+    <article>
+        <header>
+            <h1>First post to test out Pelican</h1>
+            <time datetime="article.date.isoformat()" pubdate>Sun 28 January 2018</time>
+        </header>
 
-  <article>
-    <header>
-      <h2><a href="/2017_consultingfaq.html">Management Consulting FAQ: You have questions, I have some answers</a></h2>
-      <time datetime="" title="2017-11-01T17:00:00-04:00" pubdate>Wed 01 November 2017</time>
-    </header>
+        <div class="article_content">
+            <p>Testing out a new implementation with Pelican, so I can add jupyter notebooks here in the future.</p>
+<p>Adding a snippet of python code below.</p>
+<div class="highlight"><pre><span class="k">if</span> <span class="n">post_type</span><span class="o">==</span><span class="s">&#39;new&#39;</span><span class="p">:</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">&#39;Hello world!&#39;</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span> <span class="k">raise</span> <span class="ne">ValueError</span>
+</pre></div>
 
-    <div class="article_content">
-      <p>A compilation of questions and answers about working in management consulting.</p>
-    </div>
 
-    <div class="meta">
-      <div>
-        <a href="/2017_consultingfaq.html" class="read_more">Read more &#8594;</a>
-      </div>
+<p>And let's see how formulas work, while we're at it.
+</p>
+<div class="math">$$ \text{S} = -k_b \ln{\Omega}$$</div>
+<p>Here is a <a href="http://web.mit.edu/">link</a>.</p>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
 
-      <div>
-            <a href="/tag/consulting.html" class="tag">consulting</a>
-            <a href="/tag/faq.html" class="tag">faq</a>
-      </div>
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
 
-    </div>
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
+        </div>
 
-  </article>
-  <div class="separator"></div>
-
-  <nav class="pagination row">
-    <div class="col-xs-6 left">
-    </div>
-    <div class="col-xs-6 right">
-    </div>
-  </nav>
-
-  </div>
+        <div class="meta">
+            <div>
+                    <a href="/tag/pelican.html" class="tag">pelican</a>
+                    <a href="/tag/publishing.html" class="tag">publishing</a>
+            </div>
+        </div>
+    </article>
 
 </div>
+
+<style type="text/css">
+{
+    max-width: 700px;
+}
+
+.text_cell .prompt {
+    display: none;
+}
+
+div.cell {
+    padding: 0;
+}
+
+div.text_cell_render {
+    padding: 0;
+}
+
+div.prompt {
+    font-size: 13px;
+}
+
+div.input_prompt {
+    padding: .7em 0.2em;
+}
+
+div.output_prompt {
+    padding: .4em .2em;
+}
+
+div.input_area {
+    margin: .2em 0.4em;
+    max-width: 580px;
+}
+
+table.dataframe {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+table.dataframe th, td {
+    padding: 4px;
+    text-align: left;
+}
+
+pre code {
+    background-color: inherit;
+}</style>
 
         </div>
 

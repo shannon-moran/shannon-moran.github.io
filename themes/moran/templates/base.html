@@ -72,9 +72,6 @@
                         {% if SHOW_ARCHIVES %}
                             <li><a href="/archives.html" title="Archive">Archive</a></li>
                         {% endif %}
-                        {% if SHOW_FEED %}
-                            <li><a class="nodec icon-rss" href="/{{ FEED_ALL_ATOM }}" title="jakevdp.github.io RSS feed" rel="me"></a></li>
-                        {% endif %}
                     </ul>
                 </nav>
             </div>
@@ -87,11 +84,9 @@
     <footer>
       <p align="center"><font color=#666>
         <!-- © 2018 {{ AUTHOR }} unless otherwise noted. </br> -->
-        © Shannon Moran unless otherwise noted.
         <!-- Static pages last updated 28 January 2018. -->
       </font></p>
     </footer>
 
-        {% include '_includes/analytics.html' %}
     </body>
 </html>

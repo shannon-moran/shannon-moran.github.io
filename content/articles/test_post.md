@@ -3,6 +3,7 @@ Date: 2018-01-28 15:50
 Category: Testing
 Tags: pelican, publishing
 Slug: test-post
+Status: draft
 Author: Shannon Moran
 Summary: Testing out Pelican markdown posts
 

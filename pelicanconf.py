@@ -6,11 +6,12 @@ AUTHOR = 'Shannon Moran'
 SITENAME = "Shannon Moran"
 SITEURL = ''
 
-# Add in theemes
+# Add in themes
 THEME = 'themes/moran'
 ABOUT_PAGE = '/pages/about.html'
 CV_PAGE = '/pages/cv.html'
 PUBLICATIONS_PAGE = '/pages/publications.html'
+SHOW_ARCHIVES = True
 
 PATH = 'content'
 FAVICON = 'images/favicon.ico'
